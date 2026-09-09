@@ -1,0 +1,976 @@
+_note: Сгенерировано scripts/build_tag_config.py. Поле role заполняется вручную и сохраняется при перегенерации. model_range
+  — p05..p95 истории, это ДОПУЩЕНИЕ, а не паспортный предел.
+tags:
+  AVT:T1:
+    plant: AVT
+    description: Температура верха К1. Выход на FIRC0955
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.9% точек; заморозка до 1275 шагов подряд
+    model_range:
+    - 119.067
+    - 139.354
+  AVT:P2:
+    plant: AVT
+    description: Давление бензиновых паров верха К1
+    quantity: pressure
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.7% точек; заморозка до 1157 шагов подряд
+    model_range:
+    - 3.309
+    - 3.92
+  AVT:F3:
+    plant: AVT
+    description: Расход бензина на орошение К1
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.5% точек; заморозка до 3544 шагов подряд
+    model_range:
+    - 56.272
+    - 113.684
+  AVT:P4:
+    plant: AVT
+    description: Давление низа К1 в Е6
+    quantity: pressure
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 3.51
+    - 4.127
+  AVT:F5:
+    plant: AVT
+    description: Расход пара в К1
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.9% точек; отрицательные значения в 93.0% точек; заморозка до 1500 шагов подряд
+    model_range:
+    - -26.409
+    - 166.798
+  AVT:T6:
+    plant: AVT
+    description: Температура низ К1
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 885 шагов подряд
+    model_range:
+    - 221.752
+    - 235.087
+  AVT:F7:
+    plant: AVT
+    description: Расход обессоленной нефти (3-й ход) (Нефть обессоленная в Т-4/2)
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 3.6% точек
+    model_range:
+    - 180.613
+    - 311.387
+  AVT:F8:
+    plant: AVT
+    description: Расход обессоленной нефти (1-й ход) (Нефть обессоленная в Т-6/1)
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 3.6% точек
+    model_range:
+    - 171.736
+    - 332.991
+  AVT:F9:
+    plant: AVT
+    description: Расход обессоленной нефти (2-й ход) (Нефть обессоленная в Т-10/2)
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.6% точек; отрицательные значения в 3.7% точек; заморозка до 698 шагов подряд
+    model_range:
+    - 122.03
+    - 307.0
+  AVT:D10:
+    plant: AVT
+    description: Плотность. Тр-д подачи обессолен. и обезвожен. Нефти
+    quantity: density
+    role: unknown
+    trust: 'no'
+    flags: медиана 307.0 вне диапазона для density; маркер 307 в 100.0% точек; заморозка до 119879 шагов подряд
+    model_range:
+    - 307.0
+    - 307.0
+  AVT:T11:
+    plant: AVT
+    description: 3-е ЦО после Т-46
+    quantity: unknown
+    role: unknown
+    trust: 'no'
+    flags: описание не распознано; маркер 307 в 1.2% точек; заморозка до 1179 шагов подряд
+    model_range:
+    - 38.179
+    - 88.952
+  AVT:F12:
+    plant: AVT
+    description: Расход 2 ЦО в К2
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.2% точек; отрицательные значения в 3.5% точек; заморозка до 417 шагов подряд
+    model_range:
+    - 231.293
+    - 419.804
+  AVT:T13:
+    plant: AVT
+    description: 1-е ЦО К-2 после Т-30
+    quantity: unknown
+    role: unknown
+    trust: 'no'
+    flags: описание не распознано; маркер 307 в 0.1% точек; заморозка до 276 шагов подряд
+    model_range:
+    - 77.696
+    - 96.866
+  AVT:F14:
+    plant: AVT
+    description: Расход 1 ЦО в К2
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.4% точек; заморозка до 2088 шагов подряд
+    model_range:
+    - 198.33
+    - 326.302
+  AVT:T15:
+    plant: AVT
+    description: 3 -е ЦО К-2
+    quantity: unknown
+    role: unknown
+    trust: 'no'
+    flags: описание не распознано; маркер 307 в 1.3% точек; заморозка до 1450 шагов подряд
+    model_range:
+    - 103.647
+    - 162.762
+  AVT:F16:
+    plant: AVT
+    description: Расход бензина от Н4 в Е6
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 0.7% точек
+    model_range:
+    - 41.098
+    - 69.486
+  AVT:T17:
+    plant: AVT
+    description: 2-е ЦО из К-2
+    quantity: unknown
+    role: unknown
+    trust: 'no'
+    flags: описание не распознано; маркер 307 в 1.8% точек; заморозка до 1548 шагов подряд
+    model_range:
+    - 202.472
+    - 219.419
+  AVT:T18:
+    plant: AVT
+    description: 1-е ЦО из К-2
+    quantity: unknown
+    role: unknown
+    trust: 'no'
+    flags: описание не распознано; маркер 307 в 1.0% точек; заморозка до 1562 шагов подряд
+    model_range:
+    - 146.497
+    - 162.687
+  AVT:F19:
+    plant: AVT
+    description: Расход остр.орошения К2
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.2% точек; отрицательные значения в 0.3% точек; заморозка до 417 шагов подряд
+    model_range:
+    - 44.669
+    - 101.001
+  AVT:T20:
+    plant: AVT
+    description: Температура верха К2. Выход на FIRC0953
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.7% точек; заморозка до 1413 шагов подряд
+    model_range:
+    - 112.493
+    - 116.835
+  AVT:P21:
+    plant: AVT
+    description: Давление бензиновых паров верха К2
+    quantity: pressure
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.8% точек; заморозка до 1509 шагов подряд
+    model_range:
+    - 1.005
+    - 1.212
+  AVT:P22:
+    plant: AVT
+    description: Давление верха К2
+    quantity: pressure
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.4% точек; заморозка до 2542 шагов подряд
+    model_range:
+    - 0.999
+    - 1.196
+  AVT:P23:
+    plant: AVT
+    description: Давление верха К-2
+    quantity: pressure
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 1364 шагов подряд
+    model_range:
+    - 0.999
+    - 1.193
+  AVT:T24:
+    plant: AVT
+    description: Переток из К-2 в К-6
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: буква говорит temperature, описание — flow; маркер 307 в 1.0% точек; заморозка до 1554 шагов подряд
+    model_range:
+    - 130.703
+    - 146.946
+  AVT:F25:
+    plant: AVT
+    description: Расход бензина после Т26
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.6% точек; отрицательные значения в 3.3% точек; заморозка до 1992 шагов подряд
+    model_range:
+    - 10.442
+    - 33.285
+  AVT:F26:
+    plant: AVT
+    description: Расход пара в К6
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 37.6% точек; отрицательные значения в 62.2% точек; заморозка до 63333 шагов подряд
+    model_range:
+    - -6.333
+    - 307.0
+  AVT:F27:
+    plant: AVT
+    description: Расход пара в К7
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.8% точек; отрицательные значения в 0.6% точек; заморозка до 2148 шагов подряд
+    model_range:
+    - 99.755
+    - 240.204
+  AVT:F28:
+    plant: AVT
+    description: Расход пара в К9
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.7% точек; заморозка до 2113 шагов подряд
+    model_range:
+    - 150.252
+    - 374.693
+  AVT:F29:
+    plant: AVT
+    description: Расход пара в К2
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.6% точек; отрицательные значения в 2.8% точек; заморозка до 1199 шагов подряд
+    model_range:
+    - 6.242
+    - 9.895
+  AVT:F30:
+    plant: AVT
+    description: Расход фр.290-350°С с установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 2.7% точек; заморозка до 851 шагов подряд
+    model_range:
+    - 95.073
+    - 153.128
+  AVT:F31:
+    plant: AVT
+    description: Расход нефтепродукта в П3
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 1.7% точек; заморозка до 382 шагов подряд
+    model_range:
+    - 393.723
+    - 642.206
+  AVT:F32:
+    plant: AVT
+    description: Расход фр.240-290°С с установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.7% точек; отрицательные значения в 2.2% точек; заморозка до 1258 шагов подряд
+    model_range:
+    - 53.027
+    - 96.472
+  AVT:T33:
+    plant: AVT
+    description: Температура низа К-2
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.7% точек; заморозка до 1287 шагов подряд
+    model_range:
+    - 333.21
+    - 340.274
+  AVT:F34:
+    plant: AVT
+    description: Расход фр.150-250°С с установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 2233 шагов подряд
+    model_range:
+    - 56.022
+    - 112.969
+  AVT:F35:
+    plant: AVT
+    description: Расход ВЦО в К-10
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 4.1% точек
+    model_range:
+    - 93.056
+    - 162.714
+  AVT:F36:
+    plant: AVT
+    description: Расход СЦО в К-10
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 2.7% точек
+    model_range:
+    - 92.715
+    - 156.005
+  AVT:T37:
+    plant: AVT
+    description: Температура ВЦО в К-10
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 47.962
+    - 71.094
+  AVT:T38:
+    plant: AVT
+    description: Температура доп. ВЦО К10
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 155.234
+    - 187.317
+  AVT:T39:
+    plant: AVT
+    description: Температура в К10 (над секцией рег.насадки 1а)
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 3834 шагов подряд
+    model_range:
+    - 186.872
+    - 252.0
+  AVT:T40:
+    plant: AVT
+    description: Температура ВЦО из К10
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 156.052
+    - 188.474
+  AVT:F41:
+    plant: AVT
+    description: Расход доп. ВЦО в К-10
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 1.0% точек; заморозка до 153 шагов подряд
+    model_range:
+    - 7.981
+    - 84.883
+  AVT:T42:
+    plant: AVT
+    description: Температура фр.420-500°С из К10 в Е12
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 268.49
+    - 296.121
+  AVT:L43:
+    plant: AVT
+    description: Уровень в К10
+    quantity: level
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 56.968
+    - 62.384
+  AVT:P44:
+    plant: AVT
+    description: Вакуум низа К10
+    quantity: pressure
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - -0.947
+    - 0.948
+  AVT:F45:
+    plant: AVT
+    description: Расход холодного гудрона в К10
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 3.7% точек
+    model_range:
+    - 13.906
+    - 20.111
+  AVT:F46:
+    plant: AVT
+    description: Расход НЦО К10 фракции 350-560
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 3.5% точек
+    model_range:
+    - 94.907
+    - 131.38
+  AVT:T47:
+    plant: AVT
+    description: Температура фр.350-560 °C после Т-40
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.1% точек
+    model_range:
+    - 163.645
+    - 201.558
+  AVT:T48:
+    plant: AVT
+    description: 'Описание: Температура низа К10'
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 346.377
+    - 360.248
+  AVT:T49:
+    plant: AVT
+    description: 'Описание: Температура верха К10'
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 114.53
+    - 143.352
+  AVT:P50:
+    plant: AVT
+    description: Вакуум верха К10
+    quantity: pressure
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 0.923
+    - 0.971
+  AVT:P51:
+    plant: AVT
+    description: Вакуум верха К-10 (пересчёт на мм рт.ст. с кгс/см2 от AVT6:PIR0825.P)
+    quantity: pressure
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 42.008
+    - 59.396
+  AVT:P52:
+    plant: AVT
+    description: Перепад давления над 4-й пак.насад. К10
+    quantity: pressure
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.3% точек; заморозка до 682 шагов подряд
+    model_range:
+    - -0.001
+    - 0.0
+  AVT:F53:
+    plant: AVT
+    description: Расход НЦО  К10 (Регулятор)
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 2.2% точек; заморозка до 414 шагов подряд
+    model_range:
+    - 75.204
+    - 88.915
+  AVT:F54:
+    plant: AVT
+    description: Расход от Н-34/1,2  К10
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 4.6% точек; заморозка до 162 шагов подряд
+    model_range:
+    - 0.038
+    - 28.358
+  AVT:T55:
+    plant: AVT
+    description: Температура на выходе из печи П3 (общ. Выход на FIRC2470)
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 375.801
+    - 385.012
+  AVT:F56:
+    plant: AVT
+    description: Расход в трубопроводе фракции до 350 с установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.1% точек; отрицательные значения в 4.1% точек; заморозка до 153 шагов подряд
+    model_range:
+    - 10.468
+    - 48.054
+  AVT:F57:
+    plant: AVT
+    description: Расход в трубопроводе фракции до 350 с установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 3042 шагов подряд
+    model_range:
+    - 12.417
+    - 55.949
+  AVT:T58:
+    plant: AVT
+    description: Температура фракции до 350 С от Т-37
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 22.726
+    - 68.789
+  AVT:F59:
+    plant: AVT
+    description: Расход фр.420-500°С с установки. Объемный расход
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 2.8% точек
+    model_range:
+    - 153.711
+    - 238.263
+  AVT:F60:
+    plant: AVT
+    description: Расход в трубопроводе фракции 350-560 с установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 0.1% точек; отрицательные значения в 4.0% точек; заморозка до 153 шагов подряд
+    model_range:
+    - 136.352
+    - 209.229
+  AVT:T61:
+    plant: AVT
+    description: Температура НЦО в К-10
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 170.104
+    - 192.36
+  AVT:F62:
+    plant: AVT
+    description: Расход НЦО К-10
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 2.3% точек
+    model_range:
+    - 97.251
+    - 138.305
+  AVT:F63:
+    plant: AVT
+    description: Расход гудрона на битумную установку
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.0% точек; отрицательные значения в 6.2% точек; заморозка до 1911 шагов подряд
+    model_range:
+    - -0.172
+    - 225.42
+  AVT:F64:
+    plant: AVT
+    description: Расход 3-го ЦО в К2
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 874 шагов подряд
+    model_range:
+    - 70.178
+    - 161.243
+  AVT:F65:
+    plant: AVT
+    description: Производительность К-2 по отбензиненной нефти
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 896 шагов подряд
+    model_range:
+    - 403.402
+    - 1085.095
+  AVT:T66:
+    plant: AVT
+    description: Переток в К-9
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: буква говорит temperature, описание — flow; маркер 307 в 1.6% точек; заморозка до 1546 шагов подряд
+    model_range:
+    - 241.265
+    - 265.73
+  AVT:P67:
+    plant: AVT
+    description: Давление верха К2.
+    quantity: pressure
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.0% точек; заморозка до 1379 шагов подряд
+    model_range:
+    - 0.999
+    - 1.193
+  AVT:F68:
+    plant: AVT
+    description: Расход гудрона с установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 2.5% точек; отрицательные значения в 3.2% точек; заморозка до 4180 шагов подряд
+    model_range:
+    - 5.325
+    - 87.077
+  AVT:F69:
+    plant: AVT
+    description: Расход гудрона с установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.4% точек; отрицательные значения в 4.1% точек; заморозка до 2565 шагов подряд
+    model_range:
+    - 6.19
+    - 135.542
+  AVT:W70:
+    plant: AVT
+    description: Массовый расход фр.290-350°С с установки
+    quantity: mass_flow
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 851 шагов подряд
+    model_range:
+    - 72.391
+    - 118.857
+  AVT:T71:
+    plant: AVT
+    description: Фр.290-350°С из К-2
+    quantity: unknown
+    role: unknown
+    trust: 'no'
+    flags: описание не распознано; маркер 307 в 0.8% точек; заморозка до 1434 шагов подряд
+    model_range:
+    - 296.595
+    - 311.436
+  GO:F1:
+    plant: GO
+    description: Расход бензина c установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 5.3% точек
+    model_range:
+    - -0.015
+    - 6.012
+  GO:F2:
+    plant: GO
+    description: Газовая схема. Расход на линии от ЦК-201
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 2.9% точек; заморозка до 1789 шагов подряд
+    model_range:
+    - 80123.625
+    - 102997.089
+  GO:P3:
+    plant: GO
+    description: Полисеп. Сепаратор С-201. Давление на входе
+    quantity: pressure
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 0.954
+    - 3.786
+  GO:W4:
+    plant: GO
+    description: Блок стабилизации. Массовый расход бензина в колонну К-206
+    quantity: mass_flow
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 2868 шагов подряд
+    model_range:
+    - 0.699
+    - 4.755
+  GO:T5:
+    plant: GO
+    description: Полисеп. Реактор Р-201. Температура ГСС на выходе
+    quantity: temperature
+    role: unknown
+    trust: 'yes'
+    flags: ''
+    model_range:
+    - 293.323
+    - 384.39
+  GO:T6:
+    plant: GO
+    description: Поточный анализатор серы в дизельном топливе между коллекторами нагнетания и приёма Н-202/1,2
+    quantity: quality
+    role: unknown
+    trust: 'no'
+    flags: буква говорит temperature, описание — quality; медиана 362.7 вне диапазона для quality
+    model_range:
+    - 285.248
+    - 380.238
+  GO:W7:
+    plant: GO
+    description: Блок стабилизации. Поточный анализатор содержания серы в гидроочищенном ДТ
+    quantity: quality
+    role: unknown
+    trust: 'no'
+    flags: буква говорит mass_flow, описание — quality; заморозка до 1324 шагов подряд
+    model_range:
+    - 0.14
+    - 0.2
+  GO:P8:
+    plant: GO
+    description: Полисеп. Реактор Р-202. Температура гсс на входе
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: буква говорит pressure, описание — temperature
+    model_range:
+    - 0.089
+    - 0.221
+  GO:F9:
+    plant: GO
+    description: Блок стабилизации. Расход газа поддува на входе в К-201. Массовый расход (АС КУБ)
+    quantity: mass_flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.2% точек; отрицательные значения в 2.9% точек; заморозка до 2299 шагов подряд
+    model_range:
+    - 137.5
+    - 253.695
+  GO:W10:
+    plant: GO
+    description: Реактор Р-202. Перепад давления.
+    quantity: pressure
+    role: unknown
+    trust: 'no'
+    flags: буква говорит mass_flow, описание — pressure; заморозка до 2868 шагов подряд
+    model_range:
+    - 0.725
+    - 4.671
+  GO:T11:
+    plant: GO
+    description: Расход сырья на установку (массовый)
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: буква говорит temperature, описание — flow
+    model_range:
+    - 294.369
+    - 378.903
+  GO:T12:
+    plant: GO
+    description: Расход бензина c установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: буква говорит temperature, описание — flow; маркер 307 в 0.9% точек; заморозка до 1728 шагов подряд
+    model_range:
+    - 138.686
+    - 209.994
+  GO:P13:
+    plant: GO
+    description: 'Трубопровод на выходе из реактора Р-202: Качество продукции по S'
+    quantity: quality
+    role: unknown
+    trust: 'no'
+    flags: буква говорит pressure, описание — quality
+    model_range:
+    - 3.4
+    - 4.008
+  GO:F14:
+    plant: GO
+    description: Блок стабилизации. Температура верха колонны К-201 /бензин,УВГ,Н2S
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: буква говорит flow, описание — temperature; маркер 307 в 0.3% точек; заморозка до 998 шагов подряд
+    model_range:
+    - 2.971
+    - 10.558
+  GO:F15:
+    plant: GO
+    description: Полисеп. Расход квенча в реактор Р-202
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: заморозка до 899 шагов подряд
+    model_range:
+    - 2399.011
+    - 3609.81
+  GO:T16:
+    plant: GO
+    description: Блок стабилизации. Колонна К-201. Температура стабильного гидрогенизата низ
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.5% точек; заморозка до 2868 шагов подряд
+    model_range:
+    - 25.261
+    - 45.567
+  GO:F17:
+    plant: GO
+    description: Расход гидроочищенного ДТ в цех №8 c установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: маркер 307 в 1.2% точек; заморозка до 2324 шагов подряд
+    model_range:
+    - 164.246
+    - 306.894
+  GO:T18:
+    plant: GO
+    description: Блок стабилизации. Колонна К-201. Давление на выходе
+    quantity: pressure
+    role: unknown
+    trust: 'no'
+    flags: буква говорит temperature, описание — pressure; заморозка до 6660 шагов подряд
+    model_range:
+    - 60.409
+    - 98.679
+  GO:F19:
+    plant: GO
+    description: Полисеп. Реактор Р-202. Давление на входе
+    quantity: pressure
+    role: unknown
+    trust: 'no'
+    flags: буква говорит flow, описание — pressure; медиана 214.1 вне диапазона для pressure; маркер 307 в 1.2% точек; заморозка
+      до 2324 шагов подряд
+    model_range:
+    - 127.418
+    - 248.858
+  GO:Q20:
+    plant: GO
+    description: Блок стабилизации. Расход бензина в колонну К-201
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: буква говорит quality, описание — flow; маркер 307 в 11.6% точек; заморозка до 17293 шагов подряд
+    model_range:
+    - 307.0
+    - 10856.392
+  GO:Q21:
+    plant: GO
+    description: Блок стабилизации. Расход газа поддува на входе в К-201
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: буква говорит quality, описание — flow; маркер 307 в 3.0% точек; заморозка до 4441 шагов подряд
+    model_range:
+    - 5.368
+    - 24.828
+  GO:F22:
+    plant: GO
+    description: Блок стабилизации. Расход газа поддува на входе в К-201Температура в сепараторе С-205
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: буква говорит flow, описание — temperature; медиана 10991.7 вне диапазона для temperature; заморозка до 2951 шагов
+      подряд
+    model_range:
+    - 3882.487
+    - 16097.26
+  GO:T23:
+    plant: GO
+    description: Расход гидроочищенного ДТ в цех №8 c установки
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: буква говорит temperature, описание — flow; маркер 307 в 0.8% точек; заморозка до 1435 шагов подряд
+    model_range:
+    - 224.912
+    - 250.665
+  GO:P24:
+    plant: GO
+    description: Расход свежего ВСГ с КЦА на установку
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: буква говорит pressure, описание — flow
+    model_range:
+    - 0.552
+    - 0.614
+  GO:F25:
+    plant: GO
+    description: APC. Показания виртуального анализатора "Температура вспышки ГОДТ"
+    quantity: temperature
+    role: unknown
+    trust: 'no'
+    flags: буква говорит flow, описание — temperature; медиана 13091.4 вне диапазона для temperature; заморозка до 2272 шагов
+      подряд
+    model_range:
+    - 5548.073
+    - 14892.195
+  GO:F26:
+    plant: GO
+    description: Расход сырья на установку (объемный)
+    quantity: flow
+    role: unknown
+    trust: 'no'
+    flags: отрицательные значения в 2.9% точек; заморозка до 1908 шагов подряд
+    model_range:
+    - 151.683
+    - 297.191
