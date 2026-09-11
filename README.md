@@ -19,9 +19,25 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-Укажи, где лежит выданный пакет данных (каталог с `avt_tags.csv`, `ЛИМСы….xlsx` и т.д.).
-По умолчанию ожидается `../hackaton_neftekod_2026`; переопределяется в
-`config/paths.yaml` или переменной окружения:
+Скачай пакет данных организаторов. В git его нет (один CSV весит 247 МБ, лимит
+GitHub — 100 МБ на файл): он лежит архивом в релизе `data-v1` этого приватного
+репозитория. Нужны доступ к репозиторию и `gh auth login`. Команды — из корня репозитория:
+
+```bash
+gh release download data-v1 -R netoger/neftekod -D ..
+```
+
+```bash
+python -m zipfile -e ../neftekod_data_2026.zip ..
+```
+
+Распаковка через Python, а не `tar`: GNU tar в Git Bash и на Linux zip не читает,
+а Python есть у всех и корректно разбирает кириллические имена файлов.
+Архив распакуется в `../hackaton_neftekod_2026` — это путь по умолчанию, настраивать
+ничего не нужно. `data.rar` из исходного пакета в архив не входит: в нём те же два CSV.
+
+Если данные лежат в другом месте, путь переопределяется в `config/paths.yaml`
+или переменной окружения:
 
 ```bash
 set NEFTEKOD_DATA=C:\путь\к\пакету     # Linux/macOS: export NEFTEKOD_DATA=...
